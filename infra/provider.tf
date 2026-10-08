@@ -18,6 +18,7 @@ terraform {
     container_name       = "tfstate"
     key                  = "monitor-queimadas.tfstate"
   }
+}
 
 provider "azurerm" {
   features {}
