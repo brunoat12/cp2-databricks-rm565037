@@ -13,12 +13,11 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "rg-tfstate"
-    storage_account_name = "sttfstatequeimadas"
+    resource_group_name  = "rg-tfstate-rm565037"
+    storage_account_name = "sttfstaterm565037"
     container_name       = "tfstate"
     key                  = "monitor-queimadas.tfstate"
   }
-}
 
 provider "azurerm" {
   features {}
